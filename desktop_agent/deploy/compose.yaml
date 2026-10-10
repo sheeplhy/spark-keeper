@@ -1,0 +1,20 @@
+services:
+  spark-agent:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    restart: unless-stopped
+    environment:
+      SPARK_AGENT_TOKEN: ${SPARK_AGENT_TOKEN:?请先在 .env 中设置随机令牌}
+      SPARK_AGENT_PORT: 8765
+      SPARK_TIMEZONE: Asia/Shanghai
+      SPARK_LOGIN_HEADLESS: "true"
+      SPARK_DATA_DIR: /app/data
+      HEADLESS: "true"
+    ports:
+      - "127.0.0.1:${SPARK_AGENT_PORT:-8765}:8765"
+    volumes:
+      - spark-agent-data:/app/data
+
+volumes:
+  spark-agent-data:

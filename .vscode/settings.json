@@ -1,0 +1,15 @@
+{
+  "dart.flutterSdkPath": "C:\\Users\\feiyang.liu\\Documents\\Codex\\toolchains\\flutter",
+  "dart.env": {
+    "PATH": "C:\\Users\\feiyang.liu\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd;C:\\Users\\feiyang.liu\\Documents\\Codex\\toolchains\\flutter\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Users\\feiyang.liu\\Downloads\\platform-tools;C:\\Program Files\\nodejs;C:\\Users\\feiyang.liu\\AppData\\Local\\Microsoft\\WindowsApps",
+    "PUB_CACHE": "C:\\Users\\feiyang.liu\\Documents\\Codex\\2026-10-09\\files-mentioned-by-the-user-e7\\outputs\\spark_keeper\\.pub-cache",
+    "PUB_HOSTED_URL": "https://pub.flutter-io.cn",
+    "FLUTTER_STORAGE_BASE_URL": "https://storage.flutter-io.cn"
+  },
+  "editor.formatOnSave": true,
+  "editor.rulers": [100],
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.formatOnSave": true
+  }
+}
