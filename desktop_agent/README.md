@@ -2,6 +2,13 @@
 
 ## Windows 本地模式
 
+最简单的方式是依次双击：
+
+1. `install-agent.cmd`：首次安装 Python 依赖和 Chromium。
+2. `run-agent.cmd`：以后每次启动电脑 Agent。
+
+电脑需要先安装 Python 3.11 或更高版本。
+
 首次安装：
 
 ```powershell
@@ -38,4 +45,3 @@ Set-ExecutionPolicy -Scope Process Bypass
 - App 只拿到二维码 PNG、状态和脱敏结果，不拿 Cookie、密码、验证码或私信全文。
 - 局域网 HTTP 仅用于可信家庭/个人 Wi‑Fi；不要做公网端口映射。
 - 云端使用 `deploy/compose.yaml`，端口默认仅监听服务器回环地址，外部访问必须加 HTTPS 反向代理或私有 VPN。
-
